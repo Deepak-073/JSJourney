@@ -1,6 +1,9 @@
-let num = 1
-
-for (num;num<11;num++)
-{
-    console.log(num);
+const user = {
+    name : "Deepak Sati",
+    mobile : 8076671181,
+    id : "DPKS"                                                                                                                            
 }
+
+console.log(user.name);
+console.log(user.mobile);
+console.log(user.id);
