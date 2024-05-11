@@ -1,9 +1,28 @@
-const user = {
-    name : "Deepak Sati",
-    mobile : 8076671181,
-    id : "DPKS"                                                                                                                            
+function ftry() {
+    return "Yo";
 }
 
-console.log(user.name);
-console.log(user.mobile);
-console.log(user.id);
+console.log(ftry());
+
+function add(a,b) {
+    return a+b;
+}
+
+const sum= add("hello ","world");
+
+console.log(sum);
+
+function findindex(array, target) {
+     for (var i=0; i<array.length;i++)
+     {
+        if(array[i]==target)
+        return i;
+     }
+     return "no luck";
+}
+
+const finda= findindex([1,2,4,6,7,8,5,9],8);
+const findb= findindex([1,2,4,6,7,8,5,9],11);
+
+console.log(finda);
+console.log(findb);
