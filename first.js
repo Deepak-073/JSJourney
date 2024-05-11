@@ -26,3 +26,12 @@ const findb= findindex([1,2,4,6,7,8,5,9],11);
 
 console.log(finda);
 console.log(findb);
+
+function evenornot(num){
+ if(num%2==0)
+ return 'even';
+ else
+ return 'odd';
+}
+
+console.log(evenornot(4));
